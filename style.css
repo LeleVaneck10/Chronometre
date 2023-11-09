@@ -6,3 +6,29 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #21B66F;
+}
+.chronometre{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+}
+.time{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.time span
